@@ -1,6 +1,6 @@
 # MovistarTV open node finder
 PRESENTATION
-This is a simple project developed *just for fun*. It is a web panel developed in PHP that looks for IP addresses of networks that have Spanish Movistar's Imagenio, and they are using Kodi's (https://kodi.tv/) MovistarTV plugin (https://sourceforge.net/projects/movistartv/files/) to play it's contents in a non-official device, but they failed to properly secure their instalations.
+This is a simple project developed *just for fun*. It is a web panel developed in PHP that looks for IP addresses of networks that have Spanish Movistar's Imagenio, and they are using Kodi's (https://kodi.tv/) MovistarTV plugin (https://sourceforge.net/projects/movistartv/) to play it's contents in a non-official device, but they failed to properly secure their instalations.
 To do so, it gets some data from https://shodan.io/, scans the nodes, checks for the response, and it fixes a DNS record to point to a valid IP.
 So you can have your Raspberry, Android, Linux or Windows Kodi pointing to this DNS record... And as far as there is somebody with Imagenio and Kodi sharing it, your Imagenio will (almost) always work for you hopefully!
 
