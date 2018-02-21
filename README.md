@@ -4,6 +4,8 @@ This is a simple project developed *just for fun*. It is a web panel developed i
 To do so, it gets some data from https://shodan.io/, scans the nodes, checks for the response, and it fixes a DNS record to point to a valid IP.
 So you can have your Raspberry, Android, Linux or Windows Kodi pointing to this DNS record... And as far as there is somebody with Imagenio and Kodi sharing it, your Imagenio will (almost) always work for you hopefully!
 
+![Alt text](/install/MovistarTV.jpg?raw=true "MovistarTV")
+
 This project was developed and tested under Ubuntu 17.10, but almost any mayor Linux (Debian, Raspbian, OpenWRT...) should do.
 So if you haven't already, install MySQL, PHP and Apache.
 
